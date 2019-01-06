@@ -1,0 +1,106 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 24C64
+D 64Kb serial FRAM nonvolatile Memory, SOIC-8
+K FRAM I2C Serial 5V FRAM NVRAM
+F http://www.cypress.com/file/41651/download
+$ENDCMP
+#
+$CMP BAT54
+D schottky barrier diode
+K schottky diode
+F https://www.diodes.com/assets/Datasheets/ds11005.pdf
+$ENDCMP
+#
+$CMP BAT54S
+D schottky barrier diode
+K schottky diode
+F https://www.diodes.com/assets/Datasheets/ds11005.pdf
+$ENDCMP
+#
+$CMP BTS3028SDL
+D smart low side power switch
+K mosfet
+$ENDCMP
+#
+$CMP FAN1100
+D ignition IGBT driver
+$ENDCMP
+#
+$CMP ISL9V3040
+D 300mJ, 400V, N-Channel Ignition IGBT
+K ignition igbt
+$ENDCMP
+#
+$CMP MAX9926
+K MAX
+$ENDCMP
+#
+$CMP MAX9927
+K MAX
+$ENDCMP
+#
+$CMP MCP6004
+D Low-Power, Quad-Operational Amplifiers, SOIC-14
+K quad opamp
+F http://www.ti.com/lit/ds/symlink/lm2902-n.pdf
+$ENDCMP
+#
+$CMP NCV1117DT
+D 1A Low-Dropout Linear Regulator, automotive
+K linear regulator ldo fixed positive
+$ENDCMP
+#
+$CMP NCV1117ST
+D 1A Low-Dropout Linear Regulator, automotive
+K linear regulator ldo fixed positive
+$ENDCMP
+#
+$CMP RBO40-40G
+D Bidirectional dual transient-voltage-suppression diode, center on pin 3
+K diode TVS thyrector
+F ~
+$ENDCMP
+#
+$CMP SRR1210A
+D Inductor
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP STM32F410R8Tx
+D ARM Cortex-M4 MCU, 64KB flash, 32KB RAM, 100MHz, 1.7-3.6V, 50 GPIO, LQFP-64
+K ARM Cortex-M4 STM32F4 STM32F410
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00214043.pdf
+$ENDCMP
+#
+$CMP STM32F410RBTx
+D ARM Cortex-M4 MCU, 128KB flash, 32KB RAM, 100MHz, 1.7-3.6V, 50 GPIO, LQFP-64
+K ARM Cortex-M4 STM32F4 STM32F410
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00214043.pdf
+$ENDCMP
+#
+$CMP SWD_boctok
+D Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface
+K Cortex Debug Connector ARM SWD JTAG
+F http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf
+$ENDCMP
+#
+$CMP TPIC8101
+D dual knock sensor interface
+K knock
+$ENDCMP
+#
+$CMP cx5032ga
+D Two pin crystal, small symbol
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP lfxtal071673
+D Four pin crystal, GND on pins 2 and 4, small symbol
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+#End Doc Library

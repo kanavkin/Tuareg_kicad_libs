@@ -12,6 +12,12 @@ K schottky diode
 F https://www.diodes.com/assets/Datasheets/ds11005.pdf
 $ENDCMP
 #
+$CMP BAT54A
+D schottky barrier diode
+K schottky diode
+F http://www.diodes.com/_files/datasheets/ds11005.pdf
+$ENDCMP
+#
 $CMP BAT54S
 D schottky barrier diode
 K schottky diode
@@ -30,6 +36,12 @@ $ENDCMP
 $CMP ISL9V3040
 D 300mJ, 400V, N-Channel Ignition IGBT
 K ignition igbt
+$ENDCMP
+#
+$CMP LM2903
+D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SSOP-8
+K dual comparator
+F http://www.ti.com/lit/ds/symlink/lm393-n.pdf
 $ENDCMP
 #
 $CMP MAX9926

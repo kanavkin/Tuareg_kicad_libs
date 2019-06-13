@@ -12,6 +12,12 @@ K schottky diode
 F https://www.diodes.com/assets/Datasheets/ds11005.pdf
 $ENDCMP
 #
+$CMP BAT54A
+D schottky barrier diode
+K schottky diode
+F http://www.diodes.com/_files/datasheets/ds11005.pdf
+$ENDCMP
+#
 $CMP BAT54S
 D schottky barrier diode
 K schottky diode
